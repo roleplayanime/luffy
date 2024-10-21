@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sendMessage(); 
         }
     });
-
+ 
     function sendMessage() {
         const message = userInput.value.trim();
         if (message) {
