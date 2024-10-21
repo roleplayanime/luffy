@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') {
             sendMessage(); 
         }
-    });
+    }); 
  
     function sendMessage() {
         const message = userInput.value.trim();
